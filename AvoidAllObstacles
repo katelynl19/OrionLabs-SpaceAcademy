@@ -15,6 +15,9 @@ r.move(1.524) # 5 feet forward facing down
 
 
 SHORTER WAY
+import leonode
+from leonode import *
+r = Rover()
 r.move(3.048)
 r.turn(-90)
 r.move(1.8288)
