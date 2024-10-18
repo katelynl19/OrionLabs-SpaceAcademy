@@ -1,0 +1,14 @@
+import leonode
+from leonode import *
+r = Rover()
+r.move(3.048) # 10 ft forward facing right
+r.turn(90)
+r.move(1.8288) # 6 feet down on the very right of the map
+r.turn(90)
+r.move(1.2192) # 4 feet forward facing left
+r.turn(-90)
+r.move(1.2192) # 4 feet forward facing down
+r.turn(-90)
+r.move(1.524) # 5 feet to the right
+r.turn(90)
+r.move(1.524) # 5 feet forward facing down
